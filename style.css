@@ -1,0 +1,85 @@
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+.header-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    background-color: #e76156;
+    height:500px;
+}
+
+.container {
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+}
+
+
+nav {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    margin-top: -50px;
+    
+}
+
+a {
+    text-decoration: none;
+        color: white;
+        padding-right: 20px;
+}
+
+
+.button {
+    font-family: 'Catamaran', sans-serif;
+    background-color: #ee7d78; /* Green */
+    border: none;
+    color: #fff;
+    padding: 12px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 40px;
+    float: right;
+}
+
+.button1 {
+    color: #fff; 
+    border: 2px solid #ee7d78;
+}
+
+.row {
+    color: white;
+    margin-top:100px;
+    text-align: center;
+    font-size: xx-large;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
