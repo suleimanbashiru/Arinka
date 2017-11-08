@@ -7,6 +7,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
     display: block;
     background-color: #e76156;
@@ -14,11 +16,8 @@ body {
 }
 
 .container {
-    
     padding-left: 50px;
     padding-right: 50px;
-    
-    
 }
 
 
@@ -27,7 +26,6 @@ nav {
     display: block;
     text-decoration: none;
     margin-top: -50px;
-    
 }
 
 a {
@@ -48,9 +46,6 @@ a {
     font-size: 16px;
     margin-top: -30px;
     margin-bottom: 20px;
-    
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 40px;
     float: right;
@@ -84,18 +79,12 @@ a {
     padding-left: 30px;
     
 }
-.search-box:focus {
-	box-shadow: 0 0 15px 5px #b0e0ee;
-	border: 2px solid #e76156;
-}
+
 
 form {
     text-align: center;
     margin-top: -40px;
     border-color: black;
-    
-    
-    
 }
 
 
@@ -105,5 +94,52 @@ form {
 
 
 
+/* Media */
 
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+    .button1 {
+        margin-top:auto;
+    }
+    
+    .row {
+        font-size: inherit;
+    }
+      
+      form {
+          margin-top: 20px;
+      }
+    
+    .search-box {
+        width: 80%;
+    }
+}
 
+ @media only screen and (min-width: 400px) and (max-width:529px) {
+     .header-section {
+         height: 600px;
+         }
+         
+         .row {
+        font-size: x-large;
+    }
+         
+         
+     .button1 {
+         margin-top: 20px;
+     }
+     
+     .search-box {
+         width:50%;
+     }
+ }
+ 
+ 
+ @media only screen and (min-width: 529px)  and (max-width: 718px){
+     .header-section {
+         height: 710px; 
+     }
+     
+     .button1 {
+         margin-top: auto;
+     }
+ }
