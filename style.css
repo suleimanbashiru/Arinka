@@ -108,15 +108,19 @@ form {
 
 footer {
     background-color: red;
-    margin-top: 100px;
+    
     padding-left: 40px;
     padding-right: 40px;
 }
 
 
+p {
+    color: grey;
+}
 
-
-
+img {
+    border-radius: 10px;
+}
 
 
 
