@@ -88,6 +88,34 @@ form {
 }
 
 
+.bg2 , .bg3 {
+    padding-left: 40px;
+}
+
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #e76156;
+}
+
+.button2:hover {
+    background-color: #e76156;
+    color: white;
+}
+
+
+
+footer {
+    background-color: red;
+    margin-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
+
 
 
 
