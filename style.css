@@ -107,7 +107,7 @@ form {
 
 
 footer {
-    background-color: red;
+    background-color: ;
     
     padding-left: 40px;
     padding-right: 40px;
@@ -121,6 +121,8 @@ p {
 img {
     border-radius: 10px;
 }
+
+
 
 
 
@@ -221,3 +223,22 @@ img {
      }
      
  }
+ 
+ 
+  @media only screen and (min-width: 320px)  and (max-width: 793px) {
+    
+    .pl {
+    margin-left: -200px;
+    margin-right: -200px;
+    text-align: justify;
+}
+  
+  }
+  
+  @media only screen and (min-width: 400px)  and (max-width: 793px) {
+    
+    .pl, .m1 {
+     margin-top: 100px;
+}
+  
+  }
