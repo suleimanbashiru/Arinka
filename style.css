@@ -66,21 +66,38 @@ a {
 	margin-top: 50px;
 }
 .search-box {
-	width: 30%;
+    width: 31%;
 	border: 1px solid #e76156;
     outline: 0;
     border-radius: 20px;
     height: 40px;
-    padding-left: 30px;
+    text-align: center;
+    font-size: 12px;
     
 }
 
 
 form {
     text-align: center;
-    margin-top: -40px;
-    border-color: black;
+    margin-top: -50px;
+    
 }
+
+
+.s1 {
+    margin-top:600px; 
+    text-align:center;
+}
+
+
+.p1 {
+    padding-left: 200px; 
+    padding-right: 200px;
+    color:grey;
+}
+
+
+
 
 
 .bg2 , .bg3 {
@@ -95,7 +112,7 @@ form {
 
 .button2 {
     background-color: white; 
-    color: black; 
+    color: grey; 
     border: 2px solid #e76156;
 }
 
@@ -109,12 +126,9 @@ form {
 footer {
     padding-left: 40px;
     padding-right: 40px;
-}
-
-
-p {
     color: grey;
 }
+
 
 
 
@@ -142,7 +156,16 @@ p {
     .search-box {
         width: 80%;
     }
+    
+    
+     .p1 {
+         padding: 0;
+         text-align: justify;
+     }
 }
+
+
+
 
 @media only screen and (min-width: 343px) and (max-width: 400px) {
     .row {
@@ -152,6 +175,11 @@ p {
     .button1 {
         margin-top: auto;
     }
+    
+    .p1 {
+         padding: 0;
+         text-align: justify;
+     }
     
     
 }
@@ -179,6 +207,11 @@ p {
      .search-box {
          width:50%;
      }
+     
+     .p1 {
+         padding: 0;
+         text-align: justify;
+     }
  }
  
  
@@ -186,6 +219,11 @@ p {
       .row {
           margin-top: 120px;
       }
+      
+      .p1 {
+         padding: 0;
+         text-align: justify;
+     }
   }
  
  
@@ -202,6 +240,11 @@ p {
          width: 60%;
  }
  
+ .p1 {
+         padding: 0;
+         text-align: justify;
+     }
+ 
  }
  
  @media only screen and (min-width: 718px)  and (max-width: 793px) {
@@ -216,6 +259,11 @@ p {
      
      .search-box {
          width: 60%;
+     }
+     
+     .p1 {
+         padding: 0;
+         text-align: justify;
      }
      
  }
