@@ -286,3 +286,10 @@ footer {
 }
   
   }
+  
+  
+  @media only screen and (min-width:343px)  and (max-width: 423px) {
+      .search-box {
+          margin-top: 30px;
+      }
+  }
