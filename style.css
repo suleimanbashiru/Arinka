@@ -66,13 +66,13 @@ a {
 	margin-top: 50px;
 }
 .search-box {
-    width: 31%;
+    width: 500px;
 	border: 1px solid #e76156;
     outline: 0;
-    border-radius: 20px;
+    border-radius: 28px;
     height: 40px;
-    text-align: center;
     font-size: 12px;
+    margin: auto;
     
 }
 
@@ -190,7 +190,6 @@ footer {
 
 
 
-
  @media only screen and (min-width: 400px) and (max-width:529px) {
      .header-section {
          height: 600px;
@@ -294,3 +293,6 @@ footer {
           margin-top: 30px;
       }
   }
+  
+  
+  
